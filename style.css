@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+html, body, [class*="css"] {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    font-weight: 500;
+    color: #091747;
+    margin: 0;
+    padding: 0;
+}
+
+div.stTextInput > div > div:first-child {
+    background-color: #dce6e5; 
+    }
+
+div.stButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px; /* Adjust the height as needed */
+}
+div.stButton > button:first-child {
+    background-color: #69908d;
+    color: white;
+    font-size: 20px;
+    height: 2.5em;
+    width: 7em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+div.stButton > button:first-child:hover {
+    background-color: #b0c4c3;
+}
+div.stButton > button:first-child:active {
+    color: white; /* Ensure text remains white when clicked */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+header {
+    background-color: #69908d;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding: 50px 0 50px;
+    position: relative; /* Ensure it stays in the normal flow of the document */
+    top: 0; /* Align to the top */
+    width: 100%; /* Ensure it spans the full width */
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 65px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 0.8;
+    padding-top: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+header h1 span {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 25px;
+    line-height: 1;
+}
+
+header p {
+    padding-top: 0px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.header-card {
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0px rgba(255,255,255,0.05), -3px -3px 3px 0px rgba(255,255,255,0.1);
+    display: flex; 
+    padding: 0px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.header-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #F8F8FF;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.block-container {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+div[class*="stTextInput"] label p {
+    font-size: 1.5rem !important;
+}
